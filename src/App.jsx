@@ -120,7 +120,7 @@ function App() {
       <directionalLight position={[10, 10, 10]} intensity={directionalLightIntensity} />
 
       {/* Renders our 3D Model with transmission material */}
-      <ExtrudedText position={[0, -0.5, 0]} rotation={[Math.PI / 2, 0, 0]} scale={[1, 1, 1]} />
+      <ExtrudedText position={[0, -0.2, 0]} rotation={[Math.PI / 2, 0, 0]} scale={[3, 3, 3]} />
 
       {/* OrbitControls for user interaction */}
       <OrbitControls makeDefault />
