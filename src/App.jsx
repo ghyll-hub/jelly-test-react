@@ -58,7 +58,7 @@ function BackgroundVideo() {
 
 function ExtrudedText(props) {
   // Load the model
-  const { nodes } = useGLTF('assets/ghyll-3d-model-web.glb')
+  const { nodes } = useGLTF('assets/ghyll-3d-model-web_2mb.glb')
   
   // Find the first mesh geometry in the GLTF
   const meshRef = useRef()
